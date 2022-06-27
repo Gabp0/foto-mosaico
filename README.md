@@ -7,19 +7,13 @@ Especificações do trabalho: http://wiki.inf.ufpr.br/maziero/doku.php?id=prog2:
 ## Uso
 
 Cria um mosaico da imagem de entrada a partir das pastilhas fornecidas.
-Utiliza todas as imagens no formato ppm P3 ou P6.\n
-\n
-\t   -i,                         indica o caminho para o arquivo de entrada, sendo
-                                   esse uma imagem do tipo ppm p3 ou ppm p6. caso
-                                   não fornecido, utiliza a entrada padrão stdin.\n
-\t   -o,                         indica o caminho para a imagem de saída. caso não
-                                   fornecido, utiliza a saída padrão stdout.\n
-\t   -p,                         indica o caminho para o diretório contendo as
-                                   pastilhas que serão utilizadas, sendo essas no
-                                   formato ppm p3 ou ppm p6. presume-se que são todas
-                                   quadradas, com o mesmo tamanho de N x N pixels. caso
-                                   não seja fornecido, utiliza o diretório padrão ./tiles/.\n
-\n
-Status de saída:
-   0 se OK.
-   1 se houve qualquer problema na execução.
+
+Utiliza todas as imagens no formato ppm P3 ou P6.
+
+**-i**, indica o caminho para o arquivo de entrada, sendo esse uma imagem do tipo _ppm p3_ ou _ppm p6_. Caso não fornecido, utiliza a entrada padrão _stdin_.
+
+**-o**, indica o caminho para a imagem de saída. Caso não fornecido, utiliza a saída padrão _stdout_.
+
+**-p**, indica o caminho para o diretório contendo as pastilhas que serão utilizadas, sendo essas noformato _ppm p3_ ou _ppm p6_. Presume-se que são todas quadradas, com o mesmo tamanho de N x N pixels. Caso não seja fornecido, utiliza o diretório padrão _./tiles/_.
+
+Status de saída: _0_ se OK, _1_ se houve qualquer problema na execução.
